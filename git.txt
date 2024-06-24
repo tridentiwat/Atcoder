@@ -1,0 +1,7 @@
+git add .
+git add ファイル名
+
+git commit -m "任意の文字列"
+
+git push -u origin main
+git push -u　リモートレポジトリ名　ブランチ名
