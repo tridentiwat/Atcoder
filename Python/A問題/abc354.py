@@ -1,4 +1,7 @@
-n,q = map(int,input().split())
-takahashi = 0
-
-print(1<<n)
+plant = 0
+takahashi = int(input())
+days = 0
+while plant <= takahashi:
+    plant += 1<<days
+    days += 1
+print(days)
